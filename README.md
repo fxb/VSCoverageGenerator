@@ -48,3 +48,8 @@ The required DLLs<sup>[1]</sup> ship with Visual Studio Premium / Ultimate.
 They can be found in: **C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\PrivateAssemblies\\**
 
 <sub>[1]: Microsoft.VisualStudio.Coverage.Analysis.dll, Microsoft.VisualStudio.Coverage.Symbols.dll</sub>
+
+### How can I generate HTML code coverage reports?
+
+Have a look at **[ReportGenerator](http://reportgenerator.codeplex.com/)**.
+It can take the resulting XML file from **VSCoverageGenerator** and generate a HTML report.
