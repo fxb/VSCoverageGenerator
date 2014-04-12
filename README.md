@@ -18,6 +18,7 @@ To build with earlier versions of Visual Studio, change **%VS120COMNTOOLS%** in 
 Running
 --------
 ### Requirements
+  * Your executable needs to be built with the [/PROFILE](http://msdn.microsoft.com/en-us/library/ays5x7b0.aspx) linker option.
   * Microsoft.VisualStudio.Coverage.Analysis.dll
   * Microsoft.VisualStudio.Coverage.Symbols.dll
 
