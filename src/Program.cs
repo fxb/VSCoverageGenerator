@@ -100,7 +100,7 @@ namespace CodeCoverage
 
             try
             {
-            DirectoryInfo directoryInfo = Directory.CreateDirectory(output);
+                Directory.CreateDirectory(outputDirectory);
             }
             catch (DirectoryNotFoundException ex)
             {
